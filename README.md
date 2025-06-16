@@ -62,4 +62,4 @@ If you're on a similar journey, feel free to ⭐ the repo and follow along! Cont
 
 | Day | DSA                    | MERN                       | CS-Core                 | Status   |
 |-----|------------------------|----------------------------|-------------------------|----------|
-| 1   | Two Sum, Reverse LL    | Intro to Node & Express    | OS vs Thread, HTTP      | ✅ Done   |
+| 1   | Max_Array, Remove_Duplicates| HTML, CSS| Computer Architecture, Computer Network, DBMS| ✅ Done   |

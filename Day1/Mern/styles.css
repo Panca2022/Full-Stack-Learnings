@@ -1,0 +1,30 @@
+/* Universal Selector */
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Elementor Selector */
+h1{
+    font-size: 50px;
+    color: blue;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Class Selector */
+.class1{
+    color: green;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+}
+
+/* Id Selector */
+#id1{
+    color: rebeccapurple;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 100px;
+}
