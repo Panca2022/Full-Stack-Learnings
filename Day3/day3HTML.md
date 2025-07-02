@@ -55,23 +55,23 @@
 ```
 
 ## Output:
-[Output](../assets/Screenshot6.png)
-[Hands-on Output](../assets/Screenshot5.png)
+![Output](../assets/Screenshot6.png)
+![Hands-on Output](../assets/Screenshot5.png)
 
 ## Explanation
-```table```: It defines the structure to organize the data in rows and columns 
-```caption```: It gives the heading to the table
-```thead```: Defines the header section of a table, often containing column labels.
-```tbody```: Defines the body section of a table, it contins the data of the table in rows and columns.
-```th```: Shows the table header cell tht typically holds title for the column.
-```td```: It holds content or data of the cell.
-```tfoot```: Footer of the table, which contains summaries or totals 
-```col```: Defines the attributes for the table columns tht can be applied for multiple columns simutaneously.
-```colgroup```: Group set of colums of the table, formatting and applying properties can be done collectively.
-```colspan```: It groups the number of cells in column together which is given, into 1.
-```rowspan```: It groups the number of cells in rows together which is given, into 1.
-```border```: Add border to the table where it will specified with the border size and color
-```border-collapse```: It collapse the border into a single line.
-```padding```: Specifies the space between the borders and content.
-```text-align```: Defines the position of the text. Default one is Bold and center.
-```background-color```: Sets background color to the cells.
+```table```: It defines the structure to organize the data in rows and columns <br>
+```caption```: It gives the heading to the table<br>
+```thead```: Defines the header section of a table, often containing column labels.<br>
+```tbody```: Defines the body section of a table, it contins the data of the table in rows and columns.<br>
+```th```: Shows the table header cell tht typically holds title for the column.<br>
+```td```: It holds content or data of the cell.<br>
+```tfoot```: Footer of the table, which contains summaries or totals <br>
+```col```: Defines the attributes for the table columns tht can be applied for multiple columns simutaneously.<br>
+```colgroup```: Group set of colums of the table, formatting and applying properties can be done collectively.<br>
+```colspan```: It groups the number of cells in column together which is given, into 1.<br>
+```rowspan```: It groups the number of cells in rows together which is given, into 1.<br>
+```border```: Add border to the table where it will specified with the border size and color<br>
+```border-collapse```: It collapse the border into a single line.<br>
+```padding```: Specifies the space between the borders and content.<br>
+```text-align```: Defines the position of the text. Default one is Bold and center.<br>
+```background-color```: Sets background color to the cells.<br>
