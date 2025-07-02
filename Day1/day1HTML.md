@@ -53,17 +53,17 @@
 ```
 
 ## Page Structure
-[Output](./assets/Screenshot1.png)
-[Output](./assets/Screenshot2.png)
+[Output](https://github.com/Panca2022/Full-Stack-Learnings/blob/main/assets/Screenshot1.png)
+[Output](https://github.com/Panca2022/Full-Stack-Learnings/blob/main/assets/Screenshot2.png)
 
 ## Explanation of the tags:
-```!DOCTYPE```: Document type declaration. It's not a tag. It tells that the document is HTML 5 version.
-```html```: Root element and other elements within it.
-```head```: Elements within this will not be visible in the frontend.
-```title```: The name in title will be visible in the browser tab.
-```body```: The body tag contains the main content of the webpage.
-```h1 - h6```: The heading will be in the level-by-level size from ascending to descending. Useful in the SEO.
-```p```: This will tell that, the content inside this will be paragraph. Automttically adds space before and after the paragraph when rendering 
+```!DOCTYPE```: Document type declaration. It's not a tag. It tells that the document is HTML 5 version.<br>
+```html```: Root element and other elements within it.<br>
+```head```: Elements within this will not be visible in the frontend.<br>
+```title```: The name in title will be visible in the browser tab.<br>
+```body```: The body tag contains the main content of the webpage.<br>
+```h1 - h6```: The heading will be in the level-by-level size from ascending to descending. Useful in the SEO.<br>
+```p```: This will tell that, the content inside this will be paragraph. Automttically adds space before and after the paragraph when rendering <br>
 ```a```: It defines the hyperlink, were it redirects to another webpage.
     -> ```href```: This attribute belongs to tag ```a```, which contains the link.
 ```img```: The image tag helps to embed an image in a website.
