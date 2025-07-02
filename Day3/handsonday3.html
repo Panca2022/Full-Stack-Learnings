@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hands-On for Table</title>
+    <style>
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 auto;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        caption{
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        thead{
+            background-color: #f2f2f2;
+        }
+        .zero-cell{
+            background-color: burlywood;
+        }
+        .cgpa{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lalanthika Srinivasan - Semester Mark List</h1>
+    <table>
+        <caption>Semester: 1 - 5</caption>
+        <thead>
+            <tr>
+                <th>S. No</th>
+                <th>Semester</th>
+                <th>No. of 'S'</th>
+                <th>No. of 'A'</th>  
+                <th>No. of 'B'</th>  
+                <th>No. of 'C'</th>  
+                <th>No. of 'D'</th>  
+                <th>No. of 'E'</th>  
+                <th>No. of 'F'</th>  
+                <th>No. of 'I'</th>   
+                <th>No. of Subjects</th>  
+                <th>GPA</th>  
+                <th>CGPA - Year</th>  
+                <th>CGPA - Overall</th>          
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>5</td>
+                <td>2</td>
+                <td colspan="6" class="zero-cell">0</td>
+                <td>7</td>
+                <td>9.70</td>
+                <td  rowspan="2">9.725</td>
+                <td rowspan="5" class="cgpa" title="Cumulative Grade Point Average">9.688</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>7</td>
+                <td class="zero-cell">0</td>
+                <td>1</td>
+                <td colspan="5" class="zero-cell">0</td>
+                <td>8</td>
+                <td>9.75</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>6</td>
+                <td>2</td>
+                <td>1</td>
+                <td colspan="5" class="zero-cell">0</td>
+                <td>9</td>
+                <td>9.52</td>
+                <td rowspan="2">9.67</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>4</td>
+                <td>8</td>
+                <td>1</td>
+                <td colspan="6" class="zero-cell">0</td>
+                <td>9</td>
+                <td>9.82</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>5</td>
+                <td>6</td>
+                <td>4</td>
+                <td colspan="6" class="zero-cell">0</td>
+                <td>10</td>
+                <td>9.82</td>
+                <td>9.82</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
